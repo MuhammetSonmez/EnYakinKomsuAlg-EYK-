@@ -1,0 +1,3 @@
+programa bir input girilmeden direkt olarak çalıştırılması aranan kelimeleri bulmamızı sağlar.
+39. satırdaki 'word_list = ["upon", "sigh","Dormouse", "jury-box", "swim"]' aranan kelimeleri tutan listedir.
+eğer başka bir kelime aranmak isteniyorsa 'word_list' değişkeninin içeriği değiştirilebilir.
