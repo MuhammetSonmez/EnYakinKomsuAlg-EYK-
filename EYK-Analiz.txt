@@ -1,0 +1,10 @@
+Algoritmanın asimptotik analizi:
+parse_words fonksiyonu metindeki her kelimeyi ayırmak için bir split işlemi kullanır ve sonra boşlukları siler.
+count_word_in_words fonksiyonu, bir kelimenin bir cümlede kaç kez geçtiğini hesaplamak için kullanılır.
+count_word_in_text fonksiyonu, metindeki her cümle için count_word_in_words fonksiyonunu çağırır ve sonuçlarını bir listeye kaydeder.
+Bu listelerin toplamı, kelimenin metinde kaç kez geçtiğini verir.
+Programın asimptotik analizi, parse_words fonksiyonunda kullanılan split işlemi nedeniyle O(n) olarak hesaplanabilir.
+count_word_in_words fonksiyonu, bir cümledeki kelimelerin sayısıyla doğru orantılıdır ve O(n) karmaşıklığına sahiptir.
+count_word_in_text fonksiyonu, bir metindeki cümle sayısıyla doğru orantılıdır ve O(n) karmaşıklığına sahiptir.
+Son olarak, main fonksiyonu, kelime listesindeki kelime sayısıyla doğru orantılıdır ve O(m) karmaşıklığına sahiptir.
+Bu nedenle, toplam asimptotik karmaşıklık, O(n * m) olacaktır.
